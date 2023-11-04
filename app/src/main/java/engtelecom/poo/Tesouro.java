@@ -1,3 +1,5 @@
+package engtelecom.poo;
+
 public class Tesouro {
     public static final int LARGURA = 10;
     public static final int ALTURA  = 10;

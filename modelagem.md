@@ -43,4 +43,5 @@ classDiagram
     App     *-- Rover
     Mapa    *-- Tesouro
     Rover   *-- Tesouro
+    Rover   o-- Mapa
 ```
