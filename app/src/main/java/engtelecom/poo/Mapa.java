@@ -6,7 +6,6 @@ public class Mapa {
 
     private  int largura ;
     private  int altura ;
-
     private  int totalDeTesouros;
     private  ArrayList<Tesouro> tesouros;
 

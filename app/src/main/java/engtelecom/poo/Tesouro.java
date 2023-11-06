@@ -8,18 +8,14 @@ public class Tesouro {
     private int valor;
 
     public Tesouro(int posicaoX, int posicaoY, int pontos) {
-        this.posicaoX = posicaoX;
-        this.posicaoY = posicaoY;
-        this.valor = pontos;
+        this.posicaoX   = posicaoX;
+        this.posicaoY   = posicaoY;
+        this.valor      = pontos;
     }
 
-    public int getPosicaoX(){
-        return this.posicaoX;
-    }
-    public int getPosicaoY(){
-        return this.posicaoY;
-    }
-    public int getValor(){
-        return this.valor;
-    }
+    public int getPosicaoX()    {return this.posicaoX;}
+
+    public int getPosicaoY()    {return this.posicaoY;}
+
+    public int getValor()       {return this.valor;   }
 }
