@@ -40,8 +40,12 @@ classDiagram
         +informarCoordenada() double[]
     }
     App     *-- Mapa
-    App     *-- Rover
     Mapa    *-- Tesouro
+    App     *-- Rover
+
+
     Rover   *-- Tesouro
     Rover   o-- Mapa
+    App     *-- Rover
+
 ```

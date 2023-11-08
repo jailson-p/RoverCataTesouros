@@ -13,9 +13,14 @@ public class Tesouro {
         this.valor      = pontos;
     }
 
-    public int getPosicaoX()    {return this.posicaoX;}
+    public int getPosicaoX()            {return this.posicaoX;  }
 
-    public int getPosicaoY()    {return this.posicaoY;}
+    public int getPosicaoY()            {return this.posicaoY;  }
 
-    public int getValor()       {return this.valor;   }
+    public int getValor()               {return this.valor;     }
+
+    public int getLarguraTesouro()      {return LARGURA;       }
+
+    public int getAlturaTesouro()       {return  ALTURA;        }
+
 }
